@@ -17,12 +17,12 @@ An **interactive dashboard** built using **Plotly Dash** provides visual insight
 ---
 
 ## 📂 Project Structure  
-bash
+''' bash
 ├── dataset/                # Raw and processed CSV files (sensor data, labels)  
 ├── models/                 # Saved model files (optional)  
 ├── app.py                  # Main Dash application  
 ├── requirements.txt        # Required Python packages  
-├── README.md               # You're here :)
+├── README.md               # You're here :) '''
 
 ---
 
