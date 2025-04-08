@@ -32,10 +32,11 @@ Each engine undergoes a run-to-failure simulation under different conditions.
 
 ---
 
-## ⚙️ Feature Engineering  
-- Applied **Min-Max Normalization** and **"first-n-cycle" normalization**  
-- Created smoothed **rolling averages** for sensor signals  
-- **RUL clipping** to handle extreme values and reduce noise  
+## ⚙️ Feature Engineering
+
+- Applied **Min-Max Normalization** and **"first-n-cycle" normalization**
+- Created smoothed **rolling averages** for sensor signals
+- **RUL clipping** to handle extreme values and reduce noise
 
 ---
 
