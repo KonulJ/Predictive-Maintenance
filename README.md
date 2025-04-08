@@ -1,11 +1,10 @@
- #  🛠️ Predictive Maintenance for Aircraft Turbofan Engines using Machine Learning  
-**Powered by the C-MAPSS Dataset**
+# 🛠️ Predictive Maintenance for Aircraft Turbofan Engines using Machine Learning  
 **Powered by the C-MAPSS Dataset**
 
 ---
 
-##  📌 Overview  
-This project demonstrates how machine learning (especially regression)  models can be applied to sensor and operational settings data from jet engines to predict **Remaining Useful Life (RUL)** and prevent equipment failure. By leveraging the **C-MAPSS dataset**, the application predicts potential breakdowns before they occur—reducing downtime, optimizing maintenance schedules, and improving operational efficiency.
+## 📌 Overview  
+This project demonstrates how machine learning (especially regression) models can be applied to sensor and operational settings data from jet engines to predict **Remaining Useful Life (RUL)** and prevent equipment failure. By leveraging the **C-MAPSS dataset**, the application predicts potential breakdowns before they occur—reducing downtime, optimizing maintenance schedules, and improving operational efficiency.
 
 An **interactive dashboard** built using **Plotly Dash** provides visual insights into sensor behavior and model performance.
 
@@ -18,6 +17,7 @@ An **interactive dashboard** built using **Plotly Dash** provides visual insight
 ├── app.py                  # Main Dash application  
 ├── requirements.txt        # Required Python packages  
 ├── README.md               # You're here :)
+
 
 ## 📊 Dataset: C-MAPSS  
 Provided by **NASA** for engine degradation simulation.  
