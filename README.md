@@ -3,12 +3,6 @@
 
 ---
 
-## ⚙️ Feature Engineering
-
-- Applied **Min-Max Normalization** and **"first-n-cycle" normalization**
-- Created smoothed **rolling averages** for sensor signals
-- **RUL clipping** to handle extreme values and reduce noise
-
 ## 📌 Overview  
 This project demonstrates how machine learning (especially regression) models can be applied to sensor and operational settings data from jet engines to predict **Remaining Useful Life (RUL)** and prevent equipment failure. By leveraging the **C-MAPSS dataset**, the application predicts potential breakdowns before they occur—reducing downtime, optimizing maintenance schedules, and improving operational efficiency.
 
@@ -39,7 +33,7 @@ Each engine undergoes a run-to-failure simulation under different conditions.
 
 ---
 
-## Feature Engineering
+## ⚙️ Feature Engineering
 
 - Applied **Min-Max Normalization** and **"first-n-cycle" normalization**
 - Created smoothed **rolling averages** for sensor signals
