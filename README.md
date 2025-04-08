@@ -17,7 +17,7 @@ An **interactive dashboard** built using **Plotly Dash** provides visual insight
 ---
 
 ## 📂 Project Structure  
-''' bash
+
 ├── dataset/                # Raw and processed CSV files (sensor data, labels)  
 ├── models/                 # Saved model files (optional)  
 ├── app.py                  # Main Dash application  
@@ -32,7 +32,7 @@ Provided by **NASA** for engine degradation simulation.
 Each engine undergoes a run-to-failure simulation under different conditions.  
 
 **Dataset contains:**  
-- `engine_id`, `time_in_cycles`  
+- "engine_id", "time_in_cycles" 
 - 3 operational settings  
 - 21 sensor readings  
 - Ground truth **Remaining Useful Life (RUL)** in a separate file for the test set  
