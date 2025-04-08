@@ -1,10 +1,11 @@
-# 🛠️ Predictive Maintenance using Machine Learning  
+ # 🛠️ Predictive Maintenance for Aircraft Turbofan Engines using Machine Learning  
+**Powered by the C-MAPSS Dataset**
 **Powered by the C-MAPSS Dataset**
 
 ---
 
 ## 📌 Overview  
-This project demonstrates how machine learning models can be applied to sensor data from jet engines to predict **Remaining Useful Life (RUL)** and prevent equipment failure. By leveraging the **C-MAPSS dataset**, the application predicts potential breakdowns before they occur—reducing downtime, optimizing maintenance schedules, and improving operational efficiency.
+This project demonstrates how machine learning (especially regression)  models can be applied to sensor and operational settings data from jet engines to predict **Remaining Useful Life (RUL)** and prevent equipment failure. By leveraging the **C-MAPSS dataset**, the application predicts potential breakdowns before they occur—reducing downtime, optimizing maintenance schedules, and improving operational efficiency.
 
 An **interactive dashboard** built using **Plotly Dash** provides visual insights into sensor behavior and model performance.
 
@@ -12,11 +13,9 @@ An **interactive dashboard** built using **Plotly Dash** provides visual insight
 
 ## 📂 Project Structure  
 ```bash
-├── assets/                 # Custom CSS or images  
 ├── dataset/                # Raw and processed CSV files (sensor data, labels)  
 ├── models/                 # Saved model files (optional)  
 ├── app.py                  # Main Dash application  
-├── utils.py                # Helper functions  
 ├── requirements.txt        # Required Python packages  
 ├── README.md               # You're here :)
 
@@ -44,7 +43,6 @@ Each engine undergoes a run-to-failure simulation under different conditions.
 Multiple regressors were tested:  
 - ✅ **XGBoost**  
 - ✅ **LightGBM**  
-- ✅ **Logistic Regression** (as baseline)  
 
 **Hyperparameter Tuning:**  
 - Used **GridSearchCV** for optimization  
@@ -80,4 +78,15 @@ Multiple regressors were tested:
 ## 🚀 Future Work  
 - Integrate **classification models** for risk zones  
 - Deploy the dashboard using **Docker / Heroku / Streamlit Sharing**  
-- Use **LSTM** for sequence modeling and time-dependent features  
+- Use **LSTM** for sequence modeling and time-dependent features
+---
+
+# Clone the repo
+git clone git clone https://github.com/KonulJ/Predictive-Maintenance.git
+cd predictive-maintenance
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+python app.py
